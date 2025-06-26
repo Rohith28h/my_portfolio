@@ -243,6 +243,7 @@ header .shadow{
     font-size: 1.7em;
     font-weight: bolder;
     color: var(--main-color);
+    margin-bottom: revert;
 }
 
 .services-container{
@@ -424,6 +425,19 @@ form .sent-btn:hover{
     text-align: right;
 }
 
+.heading-resume {
+    text-align: center;
+    margin-bottom: 200px; /* Add some space below the heading */
+}
+.resume-img {
+    width: 100%;
+    height: auto;
+    
+    max-width: 800px; /* Set a max-width for the resume image */
+    margin: 0 auto; /* Center the image */
+    display: block; /* Ensure it behaves like a block element */
+    border: solid 1px var(--text-color); /* Optional: Add a border for better visibility */
+}
 
 /* macking it responsive */
 @media (max-width: 991px) {
