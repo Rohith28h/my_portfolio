@@ -438,7 +438,6 @@ form .sent-btn:hover{
     display: block; /* Ensure it behaves like a block element */
     border: solid 1px var(--text-color); /* Optional: Add a border for better visibility */
 }
-
 /* macking it responsive */
 @media (max-width: 991px) {
     header{
