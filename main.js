@@ -1,19 +1,19 @@
-let menu=document.quearyselector('#menu-icon');
-let navabar=document.quearyselector('.navbar');
-let header=document.quearyselector('header');
+let menu=document.querySelector('#menu-icon');
+let navbar=document.querySelector('.navbar');
+let header=document.querySelector('header');
 
 
 menu.onclick =() =>{
-    menu.classlist.toggle('bx-x')
-    navbar.classlist.toggle('active')
+    menu.classList.toggle('bx-x')
+    navbar.classList.toggle('active')
     
 }
 window.onscroll=() =>{
-    menu.classlist.remove('bx-x')
-    navbar.classlist.remove('active')
+    menu.classList.remove('bx-x')
+    navbar.classList.remove('active')
 }
 window.addEventListener('scroll',()=>{
-    header.classlist.toggle('shadow', window.scrollY>0);
+    header.classList.toggle('shadow', window.scrollY>0);
 });
 
 const sr= ScrollReveal({
